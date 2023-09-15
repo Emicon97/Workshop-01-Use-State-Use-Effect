@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    padding: 6rem;
+    height: 100vh;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: indianred;
+  border-radius: 10px;
+  border: 0px;
+  padding: 1rem;
+  min-width: 7rem;
+  cursor: pointer;
+}

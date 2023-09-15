@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 10rem;
+  height: 100vh;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    gap: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 10fr));
+    grid-gap: 1rem;
+    padding: 6rem;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  width: 20%;
+  height: 5rem;
+  border-radius: 10px;
+  border: 0px;
+  background-color: chocolate;
+  font: 2em sans-serif;
+  padding: 1rem;
+}
+
+.button {
+  background-color: indianred;
+  border-radius: 10px;
+  border: 0px;
+  padding: 1rem;
+  min-width: 7rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.button:disabled {
+  color: rgb(58, 58, 58);
+}
